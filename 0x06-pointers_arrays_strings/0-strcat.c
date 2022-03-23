@@ -6,7 +6,8 @@
  */
 char *_strcat (char *dest, char *src)
 {
-  int *a;
-  a = strcat (dest, src);
-  return (a);
+  dest[] = "Hello";
+  src[] = "world";
+  _strcat (dest, src);
+  return (dest);
 }
